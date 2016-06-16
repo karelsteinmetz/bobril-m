@@ -102,6 +102,10 @@ b.init(() => {
                 m.RadioButton({ value: 2 }, "Option C"),
                 m.RadioButton({ value: 3, disabled: true }, "Disabled Option")
             ])
+        ]),
+        m.Paper({ style: { margin: 16, padding: 8 } }, [
+            m.AppBar({ }), spacer,
+            m.AppBar({ })
         ])
     ];
 });

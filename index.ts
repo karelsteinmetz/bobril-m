@@ -12,3 +12,4 @@ export * from "./src/enhancedTextArea";
 export * from "./src/textField";
 export * from "./src/badge";
 export * from "./src/toggle";
+export * from "./src/appBar";
